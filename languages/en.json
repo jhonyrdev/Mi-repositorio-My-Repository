@@ -1,0 +1,53 @@
+{
+  "menu": {
+    "item1": "Home",
+    "item2": "About me",
+    "item3": "Skills",
+    "item4": "Training",
+    "item5": "Projects",
+    "item6": "Contact"
+  },
+
+  "home": {
+    "home_text-1": "Hi! I'm",
+    "home_text-3": "Front-End Web Developer",
+    "parrafo-info": "Programming student focused on frontend web development. I am passionate about creating intuitive and aesthetically pleasing designs, always aiming to provide the best user experience in my projects.",
+    "cv_button": "Download CV",
+    "contact_button": "Contact"
+  },
+
+  "sobre-mi": {
+    "title": "About me",
+    "texto_sobreMi": "I am an undergraduate student in Systems Engineering and Computer Science, self-taught in Web Development focused on both Frontend and Backend programming. I am to find a job in the Web Development field, gain experience, acquire new knowledge, and strengthen my professional life. I am an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication, problem-solving, responsibility, and proactivity. I enjoy learning from others and continuously improving myself."
+  },
+
+  "habilidades": {
+    "title": "Skills"
+  },
+
+  "Estudio": {
+    "title": "Education",
+    "estudio1": "Systems Engineering and Computer Science",
+    "tiempo-estudio1": "2023 - Ongoing",
+    "estudio2": "SQL SERVER - Python Course",
+    "tiempo-estudio2": "January 2025 - February 2025",
+    "estudio3": "Web Development Course",
+    "tiempo-estudio3": "June 2023 - July 2024"
+  },
+
+  "proyectos": {
+    "title": "Projects",
+    "title-proyecto1": "Landing Page",
+    "info-proyecto1": "Attractive travel and tourism landing page, with sections for popular destinations, recommended places, and a simple and intuitive design.",
+    "title-proyecto2": "My Portfolio",
+    "info-proyecto2": "A precise overview of me, my skills, education, and projects, all in an interactive, attractive, and professional web portfolio.",
+    "title-proyecto3": "Task Manager",
+    "info-proyecto3": "A page that simulates basic actions like listing, deleting, editing, and adding tasks. Completed tasks cannot be deleted or updated."
+  },
+
+  "contacto": {
+    "title": "Contact",
+    "text": "Complete the form below and I will contact you as soon as possible.",
+    "btn-enviar": "Send"
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "menu": {
+        "item1": "Inicio",
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Desarrollador web Front-End",
+        "parrafo-info": "Estudiante de programación, con enfoque en el desarrollo web frontend. Me apasiona crear diseños intuitivos y estéticamente agradables, siempre buscando ofrecer la mejor experiencia de usuario en mis proyectos.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy estudiante de pregrado de Ingeniería de sistemas e informática, autodidacta de Desarrollo Web enfocado en programación Frontend como el Backend. Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional. Soy una persona empática y entusiasta, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactivo, me gusta aprender de los demás y superarme continuamente."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "Estudio": {
+        "title": "Educación",
+        "estudio1": "Ing. de Sistemas e informática",
+        "tiempo-estudio1": "2023 - En curso",
+        "estudio2": "Curso de SQL SERVER - Python",
+        "tiempo-estudio2": "Enero 2025 - Febrero 2025",
+        "estudio3": "Curso de Desarrollo Web",
+        "tiempo-estudio3": "Junio 2023 - Julio 2024"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "Landing Page",
+        "info-proyecto1": "Landing page atractiva de viaje y turismo, con secciones de destinos populares, lugares recomendados, y diseño sencillo e intuitivo.",
+        "title-proyecto2": "Mi Portafolio",
+        "info-proyecto2": "Un vistazo preciso sobre mí, mis habilidades, formación y proyectos, todo esto en un portafolio web interactivo, atractivo y profesional.",
+        "title-proyecto3": "Gestor de Tareas",
+        "info-proyecto3": "Página que simula acciones básicas de listar, eliminar, editar y agregar tareas, tareas completadas no se pueda eliminar o actualizar."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}

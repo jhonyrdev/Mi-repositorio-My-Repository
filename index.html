@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio | Jhonny Rodriguez Desarrollador Web"
+    />
+    <title>Jhonny Rodriguez | Desarrollador Web Front-End</title>
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <link rel="stylesheet" href="./assets/style/responsive.css" />
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&
+                family=Roboto:ital,wght@0,100..900;1,100..900&display=swap&v=1"
+      rel="stylesheet"
+    />
+
+    <!-- Iconos FontAwesome -->
+    <link href="lib/fontawesome-free-6.7.2-web/css/all.css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/general/logo-jr.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar-container">
+        <!-- Logo -->
+        <img
+          src="./assets/img/general/logo-jr.png"
+          alt="Logo Portafolio"
+          class="logo__header"
+          id="navbar-logo"
+        />
+        <div id="navbar" class="navbar">
+          <!-- Menu -->
+          <div class="navbar-links">
+            <a href="#home" data-section="menu"
+            data-value="item1"
+            class="navbar-link">Inicio</a>
+            <a
+              href="#sobreMi"
+              data-section="menu"
+              data-value="item2"
+              class="navbar-link"
+              >Sobre mí</a
+            >
+            <a
+              href="#habilidades"
+              data-section="menu"
+              data-value="item3"
+              class="navbar-link"
+              >Habilidades</a
+            >
+            <a
+              href="#estudio"
+              data-section="menu"
+              data-value="item4"
+              class="navbar-link"
+              >Formación</a
+            >
+            <a
+              href="#proyectos"
+              data-section="menu"
+              data-value="item5"
+              class="navbar-link"
+              >Proyectos</a
+            >
+            <a
+              href="#contacto"
+              data-section="menu"
+              data-value="item6"
+              class="navbar-link"
+              >Contacto</a
+            >
+          </div>
+
+          <!-- Idiomas de la página -->
+          <div id="lenguages" class="lenguages">
+            <select
+              id="language-select"
+              class="lenguages-select"
+              title="idioma"
+            >
+              <option value="es">es</option>
+              <option value="en">en</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Icono Menu Mobile -->
+        <div class="navbar-mobile">
+          <!-- Botón de menú (hamburguesa) -->
+          <button id="button-menu" class="button-menu" aria-label="Abrir menú">
+            <i id="open-icon" class="fa-solid fa-bars" aria-hidden="true"></i>
+            <i id="close-icon" class="fa-solid fa-xmark" aria-hidden="true" style="display: none;"></i>
+          </button>
+        </div>
+        
+      </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="section-container">
+        <div class="container-home">
+          <div class="home_info">
+            <div class="container_text-info">
+              <p
+                class="home_text-1"
+                data-section="home"
+                data-value="home_text-1"
+              >
+                Hola! Soy
+              </p>
+              <p class="home_text-2">Jhonny Rodriguez</p>
+
+              <p
+              class="home_text-3 text-type"
+              data-section="home"
+              data-value="home_text-3"
+            >
+              Desarrollador web Front-End
+            </p>
+            </div>
+            
+
+            <div class="container_button">
+              <a
+                href="https://drive.google.com/file/d/14XgC8X4mfCg8glXHxd-uMsPKzlbM1Yfm/view?usp=sharing"
+                target="_blank"
+              >
+                <button
+                  class="cv_button"
+                  data-section="home"
+                  data-value="cv_button"
+                >
+                  Descargar CV
+                </button>
+              </a>
+              <a href="#contacto">
+                <button
+                  class="contact_button"
+                  data-section="home"
+                  data-value="contact_button"
+                >
+                  Contacto
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <picture class="container_image-home" data-aos="zoom-in">
+            <img
+              class="image_home"
+              src="./assets/img/general/image-home.png"
+              alt="Ilustración Joven Programador"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="sobreMi" id="sobreMi">
+      <div class="section-container">
+        <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">
+          Sobre mí
+        </h1>
+
+        <div class="container_content-sobreMi" data-aos="fade-right">
+          <div class="container_texto-sobreMi">
+            <span
+              class="texto_sobreMi"
+              data-section="sobre-mi"
+              data-value="texto_sobreMi"
+            >
+              Soy estudiante de pregrado de Ingenieria de sistemas e
+              informatica, autodidacta de Desarrollo Web enfocado en
+              programación Frontend como el Backend. Aspiro conseguir empleo en
+              el mundo del Desarrollo Web, adquirir experiencia, nuevos
+              conocimientos y fortalecer mi vida profesional.<br />Soy una
+              persona empática y entusiasta, con competencias enfocadas en el
+              trabajo en equipo, comunicación asertiva, resolución de problemas,
+              responsable y proactivo, me gusta aprender de los demás y
+              superarme continuamente.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="habilidades" id="habilidades">
+      <div class="section-container">
+        <h1 data-section="habilidades" data-value="title" data-aos="fade-up">
+          Habilidades
+        </h1>
+        <div class="container--habilidades">
+          <!-- Primer contenedor para habilidades -->
+          <div class="cards_container--habilidades">
+            <p class="titulo-habilidades">Frontend</p>
+            <div class="grid-cards-habilidades" id="habilidades-1"></div>
+          </div>
+
+          <!-- Segundo contenedor para habilidades -->
+          <div class="cards_container--habilidades">
+            <p class="titulo-habilidades">Backend</p>
+            <div class="grid-cards-habilidades" id="habilidades-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formación -->
+    <section class="estudio" id="estudio">
+      <div class="section-container">
+        <h1 data-section="Estudio" data-value="title" data-aos="fade-up">
+          Educación
+        </h1>
+        <div class="cards_container--estudio"></div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="proyectos" id="proyectos">
+      <div class="section-container">
+        <h1 data-section="proyectos" data-value="title" data-aos="fade-up">
+          Proyectos
+        </h1>
+
+        <div class="cards_container--proyectos"></div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+      <div class="section-container">
+        <h1 data-section="contacto" data-value="title" data-aos="fade-up">
+          Contacto
+        </h1>
+
+        <div
+          class="container_box--contacto"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <div class="container--contacto">
+            <div class="container_text--contacto">
+              <p data-section="contacto" data-value="text">
+                Completa el siguiente formulario y me pondré en contacto contigo
+                lo antes posible.
+              </p>
+            </div>
+
+            <form
+              id="form"
+              class="form-contact"
+              name="contacto-portafolio"
+              netlify
+            >
+              <input
+                id="nombre"
+                type="text"
+                name="name"
+                placeholder="Nombre | Name"
+                required
+                autocomplete="name"
+              />
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+                autocomplete="email"
+              />
+              <input
+                id="asunto"
+                type="text"
+                name="affair"
+                placeholder="Asunto | Subject"
+                required
+                autocomplete="off"
+              />
+              <textarea
+                id="mensaje"
+                cols="20"
+                rows="4"
+                name="message"
+                placeholder="Mensaje | Message"
+                required
+              ></textarea>
+              <button
+                id="btn-enviar"
+                type="submit"
+                data-section="contacto"
+                data-value="btn-enviar"
+                class="btn_form--contacto"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="container_redes-footer">
+          <a
+            href="https://www.linkedin.com/in/jhonnyrodriguez"
+            target="_blank"
+            title="Perfil de Linkedin"
+            ><i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/jhonyrdev"
+            target="_blank"
+            title="Perfil de Github"
+            ><i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <div class="container_text--footer">
+          <span>© 2024 </span>
+          <span> All rights reserved | Made by </span>
+          <span><strong> Jhonny Rodriguez</strong></span>
+        </div>
+      </div>
+    </footer>
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="script.js"></script>
+    <script src="./Components/estudios.js"></script>
+    <script src="./Components/habilidades.js"></script>
+    <script src="./Components/proyectos.js"></script>
+    <script src="./Components/idioma.js"></script>
+  </body>
+</html>

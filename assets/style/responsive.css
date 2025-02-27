@@ -1,0 +1,451 @@
+/* Dispositivos extra pequeños (teléfonos, menos de 485px) */
+@media (max-width: 485px) {
+
+  .navbar-container,
+  .section-container,
+  .footer-container {
+    margin: 0 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .container--habilidades,
+  .cards_container--estudio,
+  .cards_container--proyectos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+
+  .section-container h1 {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+  }
+
+    /* Menu responsivo */  
+    .navbar.active{
+      display: flex;
+      text-align: center;    
+      flex-direction: column;  
+      align-items: center; 
+      position: fixed;
+      top: 80px;
+      left: 0;
+      height: 100vh;
+      padding: 1rem; 
+      background-color: var(--dark-charcoal);
+      transition: 0.5s;
+    }
+  
+    .navbar-links.active{
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      gap:1rem;
+    }
+  
+    .navbar-link.active{
+      padding: 0.5rem 0;
+    }
+  
+    .lenguages.active {
+      padding: 0.5rem 0;
+    }
+    
+    /* ... */
+
+
+  .container_image-home {
+    display: none;
+  }
+
+  .home_info {
+    flex: 0 0 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_text-1 {
+    font-size: 1.25rem;
+  }
+
+  .home_text-2 {
+    font-size: 2.5rem;
+  }
+
+  .home_text-3 {
+    font-size: 0.7rem;
+  }
+
+  .text-type {
+    width: 36ch;
+    animation: typing 6s steps(36) alternate infinite;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .cv_button,
+  .contact_button {
+    font-size: 0.8rem;
+  }
+
+  .container_button {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact_button {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .texto_sobreMi {
+    font-size: 1rem;
+  }
+
+  .logo-habilidades {
+    width: 60px;
+  }
+
+  .cards--estudio {
+    padding: 1rem;
+    width: 100;
+  }
+
+  .container_btn--proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container_btn--proyectos a {
+    width: 100%;
+  }
+
+  .btn_demo,
+  .btn_repo {
+    width: 100%;
+    height: 30px;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .btn_repo {
+    margin-top: 1rem;
+  }
+
+  .container--contacto {
+    width: 100%;
+  }
+
+  .btn_form--contacto {
+    width: 100%;
+  }
+
+  .container_text--footer {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+}
+
+/* Dispositivos pequeños (teléfonos en orientación horizontal, de 486px a 768px) */
+@media (min-width: 486px) and (max-width: 768px) {
+  .navbar-container,
+  .section-container,
+  .footer-container {
+    margin: 0 2rem;
+  }
+
+  .container--habilidades,
+  .cards_container--estudio,
+  .cards_container--proyectos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+  }
+
+    /* Menu responsivo */
+    .navbar.active{
+      display: flex;
+      text-align: center;    
+      flex-direction: column;  
+      align-items: center; 
+      position: fixed;
+      top: 80px;
+      left: 0;
+      height: 100vh;
+      padding: 1rem; 
+      background-color: var(--dark-charcoal);
+      transition: 0.5s;
+    }
+  
+    .navbar-links.active{
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      gap:1rem;
+    }
+  
+    .navbar-link.active{
+      padding: 0.5rem 0;
+    }
+  
+    .lenguages.active {
+      padding: 0.5rem 0;
+    }
+    
+    /* ... */
+
+  .container_image-home {
+    display: none;
+  }
+
+  .home_info {
+    flex: 0 0 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_text-1 {
+    font-size: 1.5rem;
+  }
+
+  .home_text-2 {
+    font-size: 3rem;
+  }
+
+  .home_text-3 {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .text-type {
+    width: 35ch;
+    animation: typing 6s steps(35) alternate infinite;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .cv_button,
+  .contact_button {
+    width: 120px;
+    height: 34px;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .logo-habilidades {
+    width: 70px;
+  }
+
+  .cards--estudio {
+    padding: 1rem;
+  }
+
+  .container--contacto {
+    width: 100%;
+  }
+
+  .container_text--footer {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .container_text--footer < span:nth-child(1) {
+    order: 1;
+  }
+  .container_text--footer < span:nth-child(2),
+  .container_text--footer < span:nth-child(3) {
+    display: inline-block;
+  }
+}
+
+/* Dispositivos medianos (tabletas, de 769px a 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .navbar-container,
+  .section-container,
+  .footer-container {
+    margin: 0 4rem;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+  }
+
+  /* Menu responsivo */
+  .logo__header.active{
+    display: flex; 
+    text-align: center;    
+    flex-direction: column;  
+    align-items: center; 
+  }
+
+  .navbar.active{
+    display: flex;
+    text-align: center;    
+    flex-direction: column;  
+    align-items: center; 
+    position: fixed;
+    top: 80px;
+    left: 0;
+    height: 100vh;
+    padding: 1rem; 
+    background-color: var(--dark-charcoal);
+    transition: 0.5s;
+  }
+
+  .navbar-links.active{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap:1rem;
+  }
+
+  .navbar-link.active{
+    padding: 0.5rem 0;
+  }
+
+  .lenguages.active {
+    padding: 0.5rem 0;
+  }
+  
+  /* ... */
+
+
+  .home_text-1 {
+    font-size: 1.5rem;
+  }
+
+  .home_text-2 {
+    font-size: 3rem;
+  }
+
+  .home_text-3 {
+    font-size: 1rem;
+  }
+
+  .text-type {
+    width: 34ch;
+    animation: typing 6s steps(34) alternate infinite;
+  }
+
+  .cv_button,
+  .contact_button {
+    width: 150px;
+    font-weight: extra-bold;
+  }
+
+  .logo-habilidades {
+    width: 60px;
+  }
+
+  .cards--estudio {
+    padding: 1rem;
+  }
+
+  .estudio--curso {
+    font-size: 0.85rem;
+  }
+  .estudio--tiempo {
+    font-size: 0.7rem;
+  }
+
+  .cards_container--proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container_textCard--proyectos p {
+    max-height: 72px;
+    overflow-y: auto;
+  }
+
+  .container--contacto {
+    width: 90%;
+  }
+}
+
+/* Dispositivos grandes (escritorios, de 993px a 1199px) */
+@media (min-width: 993px) and (max-width: 1199px) {
+  .navbar-container,
+  .section-container,
+  .footer-container {
+    margin: 0 4rem;
+  }
+
+  .logo-habilidades {
+    width: 90px;
+  }
+
+  .cards--estudio {
+    padding: 1rem;
+  }
+
+  .estudio--curso {
+    font-size: 0.9rem;
+  }
+  .estudio--tiempo {
+    font-size: 0.8rem;
+  }
+
+  .cards_container--proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container_textCard--proyectos p {
+    max-height: 72px;
+    overflow-y: auto;
+  }
+
+  .container--contacto {
+    width: 80%;
+  }
+}
+
+/* Dispositivos extra grandes (escritorios grandes, 1200px y más) */
+@media (min-width: 1200px) {
+  .navbar-container,
+  .section-container,
+  .footer-container {
+    margin: 0 6rem;
+  }
+}
+
+@media (min-height: 100px) and (max-height: 200px) {
+}
+@media (min-height: 200px) and (max-height: 300px) {
+}
+
+@media (min-height: 300px) and (max-height: 400px) {
+}
+
+@media (min-height: 400px) and (max-height: 750px) {
+}
