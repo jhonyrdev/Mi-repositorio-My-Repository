@@ -14,8 +14,8 @@ const proyectos = [
     title: "Mi Portafolio",
     description:
       "Un vistazo preciso sobre mí, mis habilidades, formación y proyectos, todo esto en un portafolio web interactivo, atractivo y profesional.",
-    demoLink: "https://mariasmoun.github.io/Juego-del-Ahorcado/",
-    repoLink: "https://github.com/mariasmoUN/Juego-del-Ahorcado",
+    demoLink: "https://myrepositoryjr.netlify.app/",
+    repoLink: "https://github.com/jhonyrdev/Mi-repositorio-My-Repository",
   },
   {
     img: "./assets/img/proyectos/cap-proyecto3.png",
