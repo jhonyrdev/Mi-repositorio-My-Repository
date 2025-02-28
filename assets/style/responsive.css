@@ -87,8 +87,8 @@
   }
 
   .text-type {
-    width: 36ch;
-    animation: typing 6s steps(36) alternate infinite;
+    width: 37ch;
+    animation: typing 6s steps(37) alternate infinite;
     overflow: hidden;
     display: inline-block;
   }

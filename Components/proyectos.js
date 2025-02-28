@@ -5,8 +5,8 @@ const proyectos = [
     title: "Landing Page",
     description:
       "Landing page atractiva sobre viajes y turismo, con secciones de destinos populares, lugares recomendados, y diseño sencillo e intuitivo.",
-    demoLink: "https://mariasmoun.github.io/Juego-del-Ahorcado/",
-    repoLink: "https://github.com/mariasmoUN/Juego-del-Ahorcado",
+    demoLink: "https://lading-tourism-travel.netlify.app/",
+    repoLink: "https://github.com/jhonyrdev/Landing-page-Travel-and-Turism",
   },
   {
     img: "./assets/img/proyectos/cap-proyecto2.png",
